@@ -1,6 +1,7 @@
 class Solution {
 public:
 
+// leetCode
 bool checkPalindrome(string s,int low,int high){
     while(low<=high){
         if(s[low]!=s[high]) return false;
